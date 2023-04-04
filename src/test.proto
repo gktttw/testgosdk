@@ -2,7 +2,7 @@ syntax = "proto3";
 option go_package = "go/test";
 
 service TestApi {
-    rpc Test(TestReq) returns (TestRes) {}
+    rpc SaySomething(TestReq) returns (TestRes) {}
 }
 
 message TestReq {
